@@ -38,7 +38,7 @@
       <form>
   <div class="form-group my-4">
     <label for="exampleFormControlInput1">Name</label>
-    <input type="email" class="form-control" id="name">
+    <input type="text" class="form-control" id="name" placeholder="Enter your name">
   </div>
 
   <div class="form-group my-4">
@@ -48,11 +48,11 @@
 
   <div class="form-group my-4">
     <label for="exampleFormControlInput1">Telephone No</label>
-    <input type="email" class="form-control" id="telephone_no" >
+    <input type="text" class="form-control" id="telephone_no" placeholder="Enter your Telephone Number">
   </div>
   <div class="form-group my-4">
     <label for="exampleFormControlInput1">Address</label>
-    <input type="email" class="form-control" id="adress" >
+    <input type="text" class="form-control" id="adress" placeholder="Enter your Address">
   </div>
  
   
