@@ -36,9 +36,23 @@
       </div>
       <div class="modal-body">
       <form>
-  <div class="form-group">
-    <label for="exampleFormControlInput1">Email address</label>
-    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+  <div class="form-group my-4">
+    <label for="exampleFormControlInput1">Name</label>
+    <input type="email" class="form-control" id="name">
+  </div>
+
+  <div class="form-group my-4">
+    <label for="exampleFormControlInput1">Email</label>
+    <input type="email" class="form-control" id="Email" placeholder="name@example.com">
+  </div>
+
+  <div class="form-group my-4">
+    <label for="exampleFormControlInput1">Telephone No</label>
+    <input type="email" class="form-control" id="telephone_no" >
+  </div>
+  <div class="form-group my-4">
+    <label for="exampleFormControlInput1">Address</label>
+    <input type="email" class="form-control" id="adress" >
   </div>
  
   
