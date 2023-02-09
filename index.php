@@ -54,7 +54,7 @@
             </div>
             <div class="form-group my-4">
               <label for="exampleFormControlInput1">Address</label>
-              <input type="text" class="form-control" id="adress" placeholder="Enter your Address">
+              <input type="text" class="form-control" id="address" placeholder="Enter your Address">
             </div>
 
 
@@ -76,6 +76,26 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   <script>
     function adduser() {
+
+      var name =$('#name').val();
+      var email =$('#Email').val();
+      var address =$('#address').val();
+      var tel =$('#telephone_no').val();
+
+      $.ajax({
+        url:"insert.php",
+        type:"post",
+        data:{
+          Sname:name,
+          Semail:email,
+          Saddress:address,
+          Stel:tel
+        },
+        success:function(data,status){
+          // function to display data
+          console.log(status);
+        }
+      })
 
     }
   </script>
