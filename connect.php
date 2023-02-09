@@ -1,8 +1,8 @@
 <?php
 
-$conect = new mysqli("localhost","root","avintha97",'simple_crud');
+$conect = new mysqli("localhost","root","",'simple_crud');
 
-if($conect){
+if(!$conect){
     echo "conected succesfully";
 }else{
     die(mysqli_error($conect));
